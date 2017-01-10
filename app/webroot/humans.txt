@@ -1,0 +1,15 @@
+/* TEAM */
+	Your title: Guillermo Corredor - developer.
+	Site: www.media507.com, www.planealoya.com, www.vuela507.com
+	Twitter: @memocorredor.
+        Facebook: www.facebook.com/memocorredor
+	Location: Ciudad de Panamá, Panamá.
+
+/* THANKS */
+	Name: www.media507.com, www.planealoya.com, www.vuela507.com, Wunderman Panamá, Burson - Marsteller Panamá, Google.
+
+/* SITE */
+	Last update: 2013/11/24
+	Standards: HTML5, CSS3, DumboPHP, Foundation5, Javascript.
+	Components: Modernizr, jQuery.
+	Software: Xcode, Netbeans, Coda2, Mac, Photoshop, Illustrator.

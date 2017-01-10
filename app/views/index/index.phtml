@@ -1,0 +1,28 @@
+<pre>
+******************************
+    MATRIX PROBLEM
+******************************
+
+Instructions:
+
+- Hit 'new'<enter> to set a new 3D matrix.
+- Type 'rows N'<enter> to set the row numbers, where N is the number of rows.
+   This will reset the matrix.
+- Type 'QUERY x y z x1 y1 z1'<enter> to fetch the summation between those cells.
+- Type 'UPDATE x y z value'<enter> to update a 'value' into the providen cell.
+   Value should be integer always.
+- Type 'exit' to finish the program.
+
+******************************
+</pre>
+<form action="index/reset" method="POST" name="reset" >
+	<input type="submit" value="Reset" name="reset[action]" />
+</form>
+
+<form action="index/rows" method="POST" name="rows" >
+	<label>
+		Number of elements for the matrix:
+		<input type="text" name="rows[elements]" required="required" />
+	</label>
+	<input type="submit" value="Set Rows" />
+</form>
