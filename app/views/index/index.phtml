@@ -5,13 +5,12 @@
 
 Instructions:
 
-- Hit 'new'<enter> to set a new 3D matrix.
-- Type 'rows N'<enter> to set the row numbers, where N is the number of rows.
+- Hit 'new' to set a new 3D matrix.
+- Type 'rows N' to set the row numbers, where N is the number of rows.
    This will reset the matrix.
-- Type 'QUERY x y z x1 y1 z1'<enter> to fetch the summation between those cells.
-- Type 'UPDATE x y z value'<enter> to update a 'value' into the providen cell.
+- Type 'QUERY x y z x1 y1 z1' to fetch the summation between those cells.
+- Type 'UPDATE x y z value' to update a 'value' into the providen cell.
    Value should be integer always.
-- Type 'exit' to finish the program.
 
 ******************************
 </pre>
@@ -25,4 +24,52 @@ Instructions:
 		<input type="text" name="rows[elements]" required="required" />
 	</label>
 	<input type="submit" value="Set Rows" />
+</form>
+
+<form action="index/setValue" method="POST" name="value" >
+	<label>
+		X:
+		<input type="text" name="value[x]" required="required" />
+	</label>
+	<label>
+		Y:
+		<input type="text" name="value[y]" required="required" />
+	</label>
+	<label>
+		Z:
+		<input type="text" name="value[z]" required="required" />
+	</label>
+	<label>
+		Value:
+		<input type="text" name="value[value]" required="required" />
+	</label>
+	<input type="submit" value="Set Rows" />
+</form>
+
+<form action="index/getValues" method="POST" name="coordinates" >
+	<label>
+		X:
+		<input type="text" name="coordinates[x]" required="required" />
+	</label>
+	<label>
+		Y:
+		<input type="text" name="coordinates[y]" required="required" />
+	</label>
+	<label>
+		Z:
+		<input type="text" name="coordinates[z]" required="required" />
+	</label>
+	<label>
+		X1:
+		<input type="text" name="coordinates[x1]" required="required" />
+	</label>
+	<label>
+		Y1:
+		<input type="text" name="coordinates[y1]" required="required" />
+	</label>
+	<label>
+		Z1:
+		<input type="text" name="coordinates[z1]" required="required" />
+	</label>
+	<input type="submit" value="Get values" />
 </form>

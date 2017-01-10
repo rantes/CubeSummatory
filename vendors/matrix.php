@@ -4,6 +4,7 @@
 
 /**
 * Handles the cube sumation in a 3d matrix
+* This supposed to run only on a shell
 */
 class Matrix3D {
 	private $_matrix = [];
